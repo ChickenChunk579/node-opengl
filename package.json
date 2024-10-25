@@ -1,0 +1,15 @@
+{
+  "name": "opengl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-gyp build && cp build/Release/glfw.node . && cp build/Release/opengl.node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "node-gyp": "^10.2.0"
+  }
+}
